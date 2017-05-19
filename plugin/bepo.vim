@@ -90,6 +90,12 @@ noremap Q M
 noremap G <
 noremap H >
 noremap F ?
+
+" racourcis doubles
+
+nnoremap ii dd
+nnoremap ,è gt
+nnoremap ,È gT
  
 " configuration du copié sur le ç car y est sur la touche composé ^
  
