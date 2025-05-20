@@ -1,10 +1,18 @@
 ""
 "" mapping du clavier bépo->qwerty en mode normal
 ""
+" nvim compatible remap 
+" configuration du copié sur le ç car y est sur la touche composé ^
  
-" configuration des lettres
+noremap ç y
+noremap ^ y
 
-imap qq <Esc>
+" configuration vim only
+if has('nvim')
+    finish
+endif
+
+" configuration des lettres
 
 inoremap « <
 inoremap » >
@@ -15,6 +23,10 @@ inoremap < «
 inoremap > »
 cnoremap < «
 cnoremap > »
+
+
+
+imap qq <Esc>
  
 noremap b q
 noremap é w
@@ -96,11 +108,6 @@ noremap F ?
 nnoremap ii dd
 nnoremap ,è gt
 nnoremap ,È gT
- 
-" configuration du copié sur le ç car y est sur la touche composé ^
- 
-noremap ç y
-noremap ^ y
  
 " configuration des nombres
 noremap « <
