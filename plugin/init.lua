@@ -41,8 +41,6 @@ map("i", "<", "«", noremap)
 map("i", ">", "»", noremap)
 map("c", "«", "<", noremap)
 map("c", "»", ">", noremap)
-map("c", "<", "«", noremap)
-map("c", ">", "»", noremap)
 
 map("n", "«", "2", noremap)
 map("n", "»", "3", noremap)
